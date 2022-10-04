@@ -14,4 +14,10 @@ public class MealBuilder {
         meal.addItems(new Pepsi());
         return meal;
     }
+    public Meal prepareCheaseMeal(){
+        Meal meal = new Meal();
+        meal.addItems(new CheaseBurger());
+        meal.addItems(new Fanta());
+        return meal;
+    }
 }
